@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 49px;
+    /* position: fixed; */
+}
+.nav{
+    margin: 19px 20px;
+    font-size: 19px;
+    font-family: serif;
+}
+.nav a{
+    padding: 2px 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+.nav-btn{
+    margin: 7px 20px;
+    
+}
+.nav-btn button{
+    background-color: #29b475;
+    padding: 12px 13px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.geekster-img{
+    margin: 10px 20px; ;
+}
+/* sesssion 2 */
+
+.main{
+    margin: 1px -4px;
+
+}
+.main-content{
+    height: 100%;
+    background-image: url("https://geekster.in/images/hero.jpg");
+}
+.h1{
+    font-size: 60px;
+    margin: 14px 93px;
+}
+.p1{
+    margin: 1px 90px;
+}
+.h1 span{
+color: #29b475;
+}
+.content2{
+font-family: system-ui;
+font-size: xx-large;
+margin: 39px 10px;
+}
+.p1 span{
+font-weight: 500;
+}
+.content-btn button{
+background-color: #29b475;
+padding: 15px 18px;
+color: white;
+border-radius: 6px;
+font-weight: 600;
+text-decoration: none;
+border-color: #29b475;
+font-size: larger;
+margin: 1px 93px;
+}
+.content-btn button a{
+text-decoration: none;
+color: white;
+}
+.wattsapp-icon-img{
+    margin: -84px 1100px;
+    border: 10px solid #29b475;
+    border-radius: 50%;
+    position: fixed;
+}
+.main2{
+    margin: 100px auto;
+    font-size: x-large;
+    /* padding: 1px 103px; */
+    text-align: center;
+}
+.main .h2{
+    margin-top: 10px;
+
+}
+.main2 .h2 span{
+    color: #29b475;
+}
