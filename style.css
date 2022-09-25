@@ -1,97 +1,148 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
 .header{
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 49px;
-    /* position: fixed; */
+    display:grid;
+    grid-template-columns: 30% 60% 10%
 }
-.nav{
-    margin: 19px 20px;
-    font-size: 19px;
-    font-family: serif;
+.Green{
+/* display: inline; */
+color: #4caf50;
+margin-left: 5px;
 }
-.nav a{
-    padding: 2px 5px;
-    text-decoration: none;
-    color: black;
-    font-weight: 200;
+.nav-sestion{
+text-align: center;
+margin: 30px auto;
 }
+.nav-sestion a{
+padding: 10px 10px;
+padding: 10px 10px;
+text-decoration: none;
+color: black;
+font-size: 18px;
+margin: 1px 5px;
+}
+
 .nav-btn{
-    margin: 7px 20px;
-    
+/* text-align: center;
+margin: 30px auto;
+/* border: beige; */
+/* border: 2px solid #4caf50; */ 
 }
 .nav-btn button{
-    background-color: #29b475;
-    padding: 12px 13px;
-    color: white;
-    border-radius: 6px;
-    font-weight: 600;
-}
-.geekster-img{
-    margin: 10px 20px; ;
-}
-/* sesssion 2 */
-
-.main{
-    margin: 1px -4px;
+padding: 10px 12px;
+border: 2px solid green;
+margin: 21px auto;
 
 }
-.main-content{
+
+/* secound part */
+.Contact-h1 h1{
+    text-align: center;
+    font-weight: 800;
+}
+.Contact-h1 p{
+   text-align: center;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #fafdff;
+gap: 10px 10px;
+box-shadow:-2px 3px 6px;
+}
+.location{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+.call{
+    display: flex;
+}
+.section-1{
+    margin: 17px 49px;
+}
+.location-icon{
+margin: 18px 12px;
+}
+.email-icon{
+margin: 18px 12px;
+
+}
+.call-icon{
+margin: 18px 12px;
+
+}
+.Map-img img{
+    width: 100%;
     height: 100%;
-    background-image: url("https://geekster.in/images/hero.jpg");
 }
-.h1{
-    font-size: 60px;
-    margin: 14px 93px;
+.section-2-content-1{
+    display: flex;
+    justify-content: stretch;
+    margin: 20px 0px;
+
 }
-.p1{
-    margin: 1px 90px;
+.section-2{
+    margin: 15px 30px;
+    background-color: white;
 }
-.h1 span{
-color: #29b475;
+.name input{
+    width: 250px;
 }
-.content2{
-font-family: system-ui;
-font-size: xx-large;
-margin: 39px 10px;
+ /* .section-2-content-2 input{
+    width: 500px;
+    margin: 20px 20px;
+} */
+.section-2-content-2 input{
+
+    width: 500px;
 }
-.p1 span{
-font-weight: 500;
-}
-.content-btn button{
-background-color: #29b475;
-padding: 15px 18px;
-color: white;
-border-radius: 6px;
-font-weight: 600;
-text-decoration: none;
-border-color: #29b475;
-font-size: larger;
-margin: 1px 93px;
-}
-.content-btn button a{
-text-decoration: none;
-color: white;
-}
-.wattsapp-icon-img{
-    margin: -84px 1100px;
-    border: 10px solid #29b475;
-    border-radius: 50%;
-    position: fixed;
-}
-.main2{
-    margin: 100px auto;
-    font-size: x-large;
-    /* padding: 1px 103px; */
+.section-2-btn {
     text-align: center;
 }
-.main .h2{
-    margin-top: 10px;
+.section-2-btn button{
+    background-color: #4caf50;
+padding: 10px 10px;
+color: white;
+font-size: 16px;
+border: none;
+border-radius: 3px;
 
 }
-.main2 .h2 span{
-    color: #29b475;
+.name{
+    padding: 0px 20px;
+}
+.section-2-content-2 {
+    padding: 0px 20px ;
+}
+.section-2-content-3{
+    padding: 0px 20px ;
+
+
+}
+.location-icon img{
+    border-radius: 50%;
+background-color: #dcefdd;
+padding: 1px 2px;
+}
+.email-icon img{
+    border-radius: 50%;
+background-color: #dcefdd;
+padding: 3px 7px;
+}
+.call-icon img{
+    border-radius: 50%;
+background-color: #dcefdd;
+padding: 3px 7px;
+}
+.section-1{
+    border-top: 2px solid #4caf50;
+    border-bottom: 2px solid #4caf50;
+    background-color: white;
+
+}
+.section-2{
+    border-top: 2px solid #4caf50;
+    border-bottom: 2px solid #4caf50;
+
 }
