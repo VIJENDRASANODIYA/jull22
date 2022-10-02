@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fn(e){
+            var h2Ref=document.getElementById("h2");
+            if(e.target.value==="10px"){
+            // h2Ref.innerText="here html";
+            h2Ref.style.fontSize="10px"
+         }else if(e.target.value==="20px"){
+            h2Ref.style.fontSize="20px"
+
+         }else if(e.target.value==="30px"){
+            h2Ref.style.fontSize="30px"
+            
+
+
+         } else if (e.target.value==="40px"){
+            h2Ref.style.fontSize="40px"
+
+         }else if (e.target.value==="50px"){
+            h2Ref.style.fontSize="50px";
+
+
+        }
+    }
+
+    function fn1(e){
+        var h2Ref=document.getElementById("h2");
+            if(e.target.value==="italic"){
+            // h2Ref.innerText="here html";
+            h2Ref.style.fontStyle="italic";
+         }else if(e.target.value==="cursive"){
+            h2Ref.style.fontFamily="cursive";
+
+
+         }else if(e.target.value==="fantasy"){
+            h2Ref.style.fontFamily="fantasy";
+          
+        } else if (e.target.value==="sans-serif"){
+            h2Ref.style.fontFamily="sans-serif";
+
+
+        }else if (e.target.value==="Verdana"){
+            h2Ref.style.fontFamily="Verdana, Geneva, Tahoma, sans-serif";
+
+
+       }
+            
+
+
+
+    }
+    </script>
+</head>
+<style>
+    div{
+           margin: 100px  auto;
+           background-color: rgb(24, 26, 27);
+           width: 500px;
+           height: 300px;
+           text-align: center;
+           color: white;
+        
+    }
+</style>
+<body>
+    <div>
+        <select name="select size" id="eve" onchange="fn(event)">
+            <option >Select Size</option>
+            <option>10px</option>
+            <option >20px</option>
+            <option >30px</option>
+            <option>40px</option>
+            <option>50px</option>
+
+
+        </select>
+
+        <select name="select Font Style" id="" onchange="fn1(event)">
+            <option >Select Font Style</option>
+            <option >italic</option>
+            <option >cursive</option>
+            <option >fantasy</option>
+            <option >sans-serif</option>
+            <option >Verdana</option>
+
+
+        </select>
+
+        <h2 id="h2">Js is Fun To Learn</h2>
+    </div>
+</body>
+</html>
